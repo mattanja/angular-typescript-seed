@@ -2,13 +2,17 @@
   "name": "angular-typescript-seed",
   "version": "0.0.1",
   "description": "angular typescript seed",
+  "repository": "https://github.com/mattanja/angular-typescript-seed.git",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "typescript": "tsc --out src/app/app.js src/app/app.ts -w"
   },
-  "author": "",
+  "author": "Mattanja Kern <https://github.com/mattanja>",
   "license": "MIT",
   "devDependencies": {
-    "bower": "^1.6.5"
+    "bower": "^1.6.5",
+    "tsd": "^0.6.5",
+    "typescript": "^1.6.2"
   }
 }
